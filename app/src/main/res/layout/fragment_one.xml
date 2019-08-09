@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bckalkulator"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:textColor="#fff"
+        android:id="@+id/txtangka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="angka1"
+        android:inputType="number"/>
+    <EditText
+        android:textColor="#fff"
+        android:id="@+id/txtangka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="txtangka2"
+        android:inputType="number"/>
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/txthasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hasil"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="Horizontal"
+
+        <Button
+            android:id="@+id/btnplus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+"/>
+        <Button
+            android:id="@+id/btnx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="X"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="Vertical"
+
+        <Button
+            android:id="@+id/btn-"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:text="-" />
+        <Button
+            android:id="@+id/btnbg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="/"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+

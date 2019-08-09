@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/segitiga_24dp"
+            android:background="@color/segitiga"
+            android:id="@+id/btnsegitiga"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:text="segitiga" />
+
+        <Button
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/lingkaran_24dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnlingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="139dp"
+            android:text="lingkaran" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ppanjang_24dp"
+            android:background="@color/segitiga"
+            android:id="@+id/btnpersegipanjang"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_weight="1"
+            android:text="persegi panjang" />
+
+        <Button
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/kotak_24dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnkotak"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_weight="1"
+            android:text="kotak" />
+
+</LinearLayout>
+
+    </LinearLayout>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.Lingkaran">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Jari Jari Lingkaran" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/txtjari"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:hint="jari jari" />
+
+    <TextView
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/txthasill"
+        android:layout_width="50dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Hasil" />
+
+    <Button
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnjari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button"
+        android:text="Jari Jari" />
+
+
+
+</LinearLayout>
