@@ -12,23 +12,23 @@
 
         <Button
 
-            android:textColor="#fff"
-            android:drawableLeft="@drawable/segitiga_24dp"
-            android:background="@color/segitiga"
             android:id="@+id/btnsegitiga"
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="203dp"
             android:layout_gravity="center"
-            android:text="segitiga" />
+            android:background="@color/segitiga"
+            android:drawableLeft="@drawable/segitiga_24dp"
+            android:text="segitiga"
+            android:textColor="#fff" />
 
         <Button
-            android:textColor="#fff"
-            android:drawableLeft="@drawable/lingkaran_24dp"
-            android:background="@color/colorPrimary"
             android:id="@+id/btnlingkaran"
             android:layout_width="match_parent"
-            android:layout_height="139dp"
-            android:text="lingkaran" />
+            android:layout_height="210dp"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/lingkaran_24dp"
+            android:text="lingkaran"
+            android:textColor="#fff" />
 
 </LinearLayout>
     <LinearLayout
@@ -37,24 +37,24 @@
         android:orientation="vertical">
 
         <Button
-            android:textColor="#fff"
-            android:drawableLeft="@drawable/ppanjang_24dp"
-            android:background="@color/segitiga"
             android:id="@+id/btnpersegipanjang"
             android:layout_width="match_parent"
-            android:layout_height="140dp"
+            android:layout_height="214dp"
             android:layout_weight="1"
-            android:text="persegi panjang" />
+            android:background="@color/segitiga"
+            android:drawableLeft="@drawable/ppanjang_24dp"
+            android:text="persegi panjang"
+            android:textColor="#fff" />
 
         <Button
-            android:textColor="#fff"
-            android:drawableLeft="@drawable/kotak_24dp"
-            android:background="@color/colorPrimary"
             android:id="@+id/btnkotak"
             android:layout_width="match_parent"
-            android:layout_height="145dp"
+            android:layout_height="199dp"
             android:layout_weight="1"
-            android:text="kotak" />
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/kotak_24dp"
+            android:text="kotak"
+            android:textColor="#fff" />
 
 </LinearLayout>
 

@@ -8,6 +8,7 @@
     >
 
     <EditText
+        android:textColorHint="#FFFFFF"
         android:textColor="#fff"
         android:id="@+id/txtangka1"
         android:layout_width="match_parent"
@@ -15,6 +16,7 @@
         android:hint="angka1"
         android:inputType="number"/>
     <EditText
+        android:textColorHint="#fff"
         android:textColor="#fff"
         android:id="@+id/txtangka2"
         android:layout_width="match_parent"

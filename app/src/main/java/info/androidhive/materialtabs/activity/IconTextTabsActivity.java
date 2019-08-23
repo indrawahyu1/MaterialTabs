@@ -24,8 +24,8 @@ public class IconTextTabsActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private int[] tabIcons = {
             R.drawable.calculator,
-            R.drawable.cube,
-            R.drawable.ic_tab_contacts
+            R.drawable.roc,
+            R.drawable.cube
     };
 
     @Override
